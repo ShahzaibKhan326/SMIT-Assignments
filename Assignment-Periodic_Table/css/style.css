@@ -1,0 +1,50 @@
+.color_green {
+        background-color: lightgreen;
+        border:1px solid black;
+
+    }
+    .color_blue {
+        background-color: lightskyblue;
+        border:1px solid black;
+ 
+    }
+    .color_pink {
+     background-color: lightpink;
+     border:1px solid black;
+
+    }
+    .color_orange {
+        background-color:lightsalmon;
+        border:1px solid black;
+
+    }
+    table {
+        width:1000px;
+    }
+    table ,td, tr {
+     border-collapse: collapse;
+     padding:10px;
+     text-align:center;
+    }
+    .color_orange:hover ,
+    .color_blue:hover ,
+    .color_green:hover ,
+    .color_pink:hover{
+        opacity:0.8;
+        font-size:24px;
+        transition: .5s font-size;
+        background-color:darkgreen;
+        color:white;
+    }
+    h1 {
+        text-align: center;
+        background-color:green;
+        color:white;
+    }
+    .tableContainer {
+          width:1000px;
+          border:1px solid black;
+          background-color: lightyellow;
+          padding:5px;
+          margin:20px auto;
+    }

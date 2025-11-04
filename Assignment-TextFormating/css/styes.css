@@ -1,0 +1,88 @@
+@font-face {
+    font-family:"myfont" ;
+    src: url(/fonts/Noticia_Text/NoticiaText-Italic.ttf);
+}
+* {
+    font-family: myfont;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+ }
+ body 
+ {
+   background-color:green;
+   color:white;
+ }
+.container
+{
+    display:flex;
+    flex-flow:wrap column;
+}
+ .main-header > h1 {
+    color:yellow;
+    text-align:center;
+    text-shadow: black 2px 2px  2px; 
+    background-color:rgb(103, 194, 103);
+ }
+ .content-heading ,.link-section ,.key-fact-heading {
+    text-align: center;
+    text-shadow: gray 2px 2px  2px;
+    background-color:rgb(103, 194, 103);
+    padding:10px;
+ }
+.subsection-main-content {
+    font-size:18px;
+    background-color: green;
+    color:white;
+    padding:15px 0px;
+    text-align: justify;
+
+}
+.main-content {
+    padding:20px;
+}
+.main-content::first-letter
+{
+    font-size:30px;
+    color:yellow;
+}
+.key-facts > ul {
+    margin:25px;
+}
+ul > li {
+padding:10px 15px;
+text-align: justify;
+font-size:18px;
+}
+ul > li::first-letter
+{
+    color:yellow;
+    font-size:25px;
+}
+a {
+ text-decoration: none;
+ font-size:20px;
+}
+a:link {
+    color:blue;
+}
+a:visited {
+color:purple;
+}
+a:hover {
+    color:orange;
+    text-decoration: underline;
+}
+a:focus {
+    color:black;
+}
+.key-fact-heading {
+    margin-top:20px;
+    background-color:rgb(196, 196, 84);
+}
+.footer-content >p {
+    text-align:center;
+    background-color:rgb(196, 196, 84);
+    padding:10px;
+
+}

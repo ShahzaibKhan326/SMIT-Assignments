@@ -1,0 +1,79 @@
+   * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin:0px;
+        }
+        table {
+            width:500px;
+            height: 500px;    
+            border:1px solid black;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        
+        td {
+           width:50px;
+           height:50px;
+           border:1px solid black;
+           background-size:590px;
+           background-repeat: no-repeat;
+        }
+        .odd {
+            background-color:#EBECD0;
+        }
+         .even {
+            background-color: #779556;   
+        }
+        .odd:hover , .even:hover{
+            background-color: #CBD858;
+        }
+      .Rook {
+        background-image: url('../images/sprites/black_player.png');
+        background-position:-5px -5px; 
+
+      }
+        .Knight  {
+        background-image: url('../images/sprites/black_player.png');
+        background-position:-80px -5px; 
+      }
+         .Bishop {
+        background-image: url('../images/sprites/black_player.png');
+        background-position:-155px -5px; 
+      }
+        .King  {
+        background-image: url('../images/sprites/black_player.png');
+        background-position:-227px -5px;
+      }
+        .Queen {
+        background-image: url('../images/sprites/black_player.png');
+        background-position:-300px -5px; 
+      }
+      .Pawn {
+        background-image: url('../images/sprites/black_player.png');
+        background-position:-5px -83px; 
+      }
+       .W_Pawn {
+        background-image: url('../images/sprites/white_player.png');
+        background-position:-5px -83px; 
+      }
+      .W_Rook {
+        background-image: url('../images/sprites/white_player.png');
+        background-position:-5px -8px;
+      }
+        .W_Knight {
+        background-image: url('../images/sprites/white_player.png');
+        background-position:-80px -8px; 
+      }
+         .W_Bishop {
+        background-image: url('../images/sprites/white_player.png');
+        background-position:-155px -8px; 
+      }
+        .W_King {
+        background-image: url('../images/sprites/white_player.png');
+        background-position:-227px -8px; 
+      }
+        .W_Queen {
+        background-image: url('../images/sprites/white_player.png');
+        background-position:-300px -8px; 
+      }
+      

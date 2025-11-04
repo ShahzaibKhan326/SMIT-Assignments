@@ -1,0 +1,92 @@
+body {
+    background-image: url('../com-images/form-bg2.jpg');
+    background-size:100% 800px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    color:white;
+}
+fieldset {
+    margin:20px auto;
+    width:500px;
+    border:1px solid red;
+    padding:10px;
+    background-color:rgba(16, 159, 230, 0.327);
+    border-radius: 10px;
+
+}
+legend {
+    text-align: center;
+}
+form {
+    margin:0px;
+    padding:0px;
+    /* border:1px solid yellow; */
+}
+.longinput {
+    width:350px
+}
+ input {
+    height:20px;
+}
+.flex-box
+{
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+/* .sname {
+    width:165px;
+} */
+ .bdd {
+    width:50px;
+} 
+.second-flex-box {
+    display: flex;
+    gap:55px;
+    margin-bottom:15px;
+}
+.bdd-text {
+    margin-left:50px;
+}
+.countryCode {
+    width:37px;
+}
+.PhoneNumber {
+    width:300px;
+}
+.gender-input {
+  margin-right:187px;
+  display: flex;
+  align-items: center;
+  gap:10px;
+}
+.dp-input {
+    margin-right:10px;
+    display:flex;
+    align-items:center;
+    gap:3px;
+}
+select {
+    text-align:center;
+    height: 27px;
+}
+.file-select-input {
+    margin-right:95px;
+}
+.address-label {
+    display:flex;
+    align-items: center;
+}
+.button-flex-box {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items:center;
+}
+.button {
+    padding:5px 10px;
+}

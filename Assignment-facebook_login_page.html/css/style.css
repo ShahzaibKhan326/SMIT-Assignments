@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:  SFProDisplay-Regular,Helvetica,Arial,sans-serif;
+
+}
+body {
+ background-color:#F2F4F7;
+}
+
+    .container {
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: space-between;
+}
+.box-container {
+    /* border: 1px solid red; */
+    width:396px;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:20px auto;
+}
+
+.facebook-logo {
+color:#0866FF;
+font-size:60px;
+font-weight: bold;
+}
+.facebook-description {
+    font-size: 24px;
+    line-height: 28px;
+}
+.box {
+    /* border:1px solid blue; */
+    background-color: white;
+    padding-bottom:13px;
+    padding-top:15px;
+    margin-top:10px;
+    width: 396px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items: center;
+    gap:8px;
+}
+.box-sub-item {
+    padding:6px 0px;
+}
+input {
+    padding:14px 16px;
+    width:330px;
+    font-size: 18px;
+    border-radius: 6px;
+    border:1px solid #DDDDDD;
+}
+
+input::placeholder 
+{
+    color:#BEC3C9;
+}
+#ID-email-input:focus , #ID-password-input:focus{
+    border:none;
+    outline: 1px  solid #0866FF;
+    box-shadow: 0px 0px 4px #0866FF;
+}
+  button {
+    
+  }
+ a {
+    text-decoration: none;
+    color:white;
+    font-style: bold;
+ }
+.log-in-button {
+ background-color:  #0866FF;
+ width:330px;
+}
+.create-account {
+    background-color: #36A420;
+    width:50%;
+}
+
+.log-in-button , .create-account  {
+    padding:14px 16px;
+    border-radius: 6px;
+}
+ .log-in-button a , .log-in-button button {
+    cursor:pointer;
+    border:none;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size:20px;
+}
+.log-in-button:hover {
+   background-color:rgb(8, 102, 245)
+}
+.forget-link  a {
+    color:blue;
+    text-decoration: none;
+}
+.forget-link:hover {
+    text-decoration: underline blue;
+}
+
+.line {
+    border-bottom:1px solid #DDDDDD;
+    width:95%;
+
+}
+
+.create-account {
+    margin-top:10px;
+}
+
+.last-text {
+        margin-top: 10px;
+        font-size: 14px;
+}
+.bold {
+    font-weight:bold;
+}
+.error {
+    margin-top:8px;
+    margin-left: 33px;
+    width:80%;
+    /* border:1px solid red; */
+    color:red;
+    text-align:left;
+    font-size: 13px;
+    line-height: 16px;
+    
+}
+
+
+@media screen and (max-width:390px)
+{
+   .box-container{
+     /* border:2px solid red; */
+     justify-content: center;
+     align-items: center;
+   }
+   .box {
+    border:1px solid black;
+    margin:30px auto;
+    width:370px;
+    /* width:90%; */
+   }
+}
+@media  screen and (min-width:900px)
+{
+   .container {
+    /* border:1px solid red; */
+    margin:20px auto;
+    width: 1000px;
+    height: 600px;
+   }
+    .box-container {
+        /* border:2px solid blue; */
+        width:950px;
+         flex-flow:row;
+         justify-content: space-between;
+    }
+    .column-one {
+        width:396px;
+    }
+}

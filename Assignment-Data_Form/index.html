@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ 
+</body>
+</html>
+<div class="afterData">
+    <h2>Thank you for Submiting </h2>
+    <p class="result"></p>
+</div>
+<div class="container">
+    <fieldset>
+    <legend>Student Registration</legend>
+    <form>
+        <div class="flex-box">
+            <div class="rn-label"> <label for="s-rn">Roll Number</label></div>
+            <div class="rn-input"><input type="text" id="s-rn" class="longinput" maxlength="8" minlength="6" required></div>
+        </div>
+
+       <div class="flex-box">
+        <div class="flex-box-c">
+        <label for="sname" class="labelspacing">Student Name:</label>
+        </div>
+        <div class="sn-input">
+            <input type="text" id="sname"  name="firstName" placeholder="First Name" maxlength="10" minlength="3" required> -
+            <input type="text" id="sname" name="lastName" placeholder="Last Name" maxlength="10" minlength="3"  required> 
+        </div>
+
+       </div>
+       <div class="flex-box">
+        <div class="fn-label"><label for="fname">Father Name:</label></div>
+        <div class="fn-input"><input type="text"  id="fname" class="longinput" maxlength="24"   required>
+     </div>
+       </div>
+
+       <div class="second-flex-box">
+        <div class="bdd-label col">
+            <label for="date">Date of Birth:</label>
+        </div>
+      <div class="bdd-input">
+        <input type="text" name="day" id="date" class="bdd" placeholder="Day"  maxlength="2" minlength="1"  required> -
+       <input type="text" name="month" id="date" class="bdd" placeholder="Month" maxlength="2" minlength="1"  required> -
+       <input type="text" name="year" id="date" class="bdd" placeholder="Year" style="width:60px;" maxlength="4" minlength="4"  required >
+      <span class="bdd-text">
+         DD/MM/YY
+     </span>
+    </div>
+       </div>
+    
+       <div class="flex-box">
+        <div class="nm-label"><label for="nm">Phone Number</label></div>
+        <div class="nm-input">
+            <select name="CountryCode" id="CountryCode">
+                <option value="+92">+92</option>
+                <option value="+93">+93</option>
+                <option value="+94">+94</option>
+            </select>
+            <input type="tel" name="PhoneNumber" id="nm" class="PhoneNumber" minlength="9" maxlength="10"   required>
+        </div>
+
+       </div>
+       <div class="flex-box">
+        <div class="em-label"><label for="em">Email</label></div>
+        <div class="em-input">
+            <input type="email" name="Email" id="em" class="longinput" maxlength="28" minlength="18"  required>
+        </div>
+       </div>
+
+       <div class="flex-box">
+        <div class="ps-label"><label for="ps">Password</label></div>
+        <div class="ps-input">
+            <input type="password" name="password" id="ps" class="longinput" maxlength="12" minlength="8"  required>
+        </div>
+       </div>
+
+     <div class="flex-box">
+        <div class="gender-label">
+            <label for="gender">Gender</label>
+        </div>
+        <div class="gender-input">
+            <input type="radio" name="gender" id="male" class="space"> 
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female" class="space"> 
+            <label for="female">Female</label>
+        </div>
+     </div>
+      <div class="flex-box">
+        <div class="dp-label">
+            <label for="IT">Department:</label>
+        </div>
+        <div class="dp-input">
+            <input type="checkbox" name="Department" id="CSE">
+            <label for="CSE">CSE</label>
+            <input type="checkbox" name="Department" id="IT">
+            <label for="IT">IT</label>
+            <input type="checkbox" name="Department" id="BCE">
+            <label for="BCE">BCE</label>
+            <input type="checkbox" name="Department" id="ECE">
+            <label for="ECE">ECE</label>
+            <input type="checkbox" name="Department" id="Civil">
+            <label for="Civil">Civil</label>
+            <input type="checkbox" name="Department" id="Mech">
+            <label for="Mech">Mech</label>
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div class="select-label">
+         Course:
+        </div>
+        <div class="selectoption">
+       <select name="select-course" id="cr" class="longinput">
+        <option value="Sc">------Select Current Course's-----</option>
+        <option value="IT" >IT</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE" >ECE</option>
+        <option value="Civil">Civil</option>
+        <option value="Mech">Mech</option>  
+            </select>
+        </div>
+      </div>
+
+    <div class="flex-box">
+        <div class="file-select-label">
+            <label for="file-selector">Student Photo:</label>
+        </div>
+        <div class="file-select-input">
+            <input type="file" name="file-selector" id="file-selector">
+        </div>
+    </div>
+
+     <div class="flex-box">
+        <div class="city-label"><label for="city">City</label></div>
+        <div class="city-input">
+            <input type="text" name="city" id="city" class="longinput">
+        </div>
+       </div>
+
+       <div class="flex-box">
+        <div class="address-label"><label for="address">Address:</label></div>
+        <div class="address-input">
+            <textarea name="address" id="address" cols="45" rows="5">
+
+            </textarea>
+        </div>
+       </div>
+
+       <div class="button-flex-box">
+        <div class="button">
+     <button type="submit">Register</button>
+        </div>
+       </div>
+
+       </div>
+    </form>
+ </fieldset>
+</div>

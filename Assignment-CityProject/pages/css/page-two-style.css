@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: "myfont";
+    src: url(../../fonts/NoticiaText-Italic.ttf);
+}
+.container 
+{
+    width:650px;
+    height: 700px;
+    position: relative;
+    margin: 20px auto;
+    /* border:1px solid red; */
+    display: flex;
+    flex-flow:row;
+    font-family: "myfont";
+}
+img {
+    width: 220px;
+    height:450px;
+    position:absolute;
+    top:20%;
+    left:65%;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border:1px solid white;
+}
+.section-one {
+ background-color:purple;
+ width: 80%;
+ display: flex;
+ flex-flow:column;
+ justify-content: space-between;
+
+}
+.section-two {
+ background-color:antiquewhite;
+ width: 20%;
+ display: flex;
+ flex-flow:column;
+}
+.section-discover {
+    font-size:50px;
+    color:plum;
+    text-shadow:black 2px 2px 2px;
+    text-align: center;
+}
+.section-karachi-city {
+    font-size:40px;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+
+}
+.content-description {
+    text-align:justify;
+    color:white;
+    padding-bottom: 30px;
+    /* text-shadow: black 2px 2px 2px; */
+
+}
+.section-description-heading {
+    text-align: justify;
+    padding-left: 20px;
+    text-shadow: black 2px 2px 2px;
+}
+.key-facts {
+    /* border:1px solid red; */
+    width:410px;
+}
+.key-facts ul {
+    list-style-type: none;
+    margin-left:20px;
+}
+ .key-facts li::first-letter {
+   font-size: 20px;
+   color:yellow;
+ }
+ .key-facts li 
+{
+padding-top:5px;
+line-height: 22px;
+}
+.section-two {
+    justify-content: flex-end;
+    padding-bottom: 25px;
+    padding-left:25px;
+}
+.mybutton  button , .mybutton a:link{
+    width: 100px;
+    background-color: plum;
+    border: none;
+    padding:10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+}
+.mybutton  button:hover , .mybutton a:hover
+{
+    background-color: green;
+}
+.mybutton a:visited {
+    background-color:rgb(17, 186, 149);
+    color:white;
+}
+.footer-row
+{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-evenly;
+    padding-bottom:6px;
+}
+
+.subsection-footer  a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.subsection-footer  a:link {
+    text-decoration: none;
+    color:white;
+}
+.subsection-footer  a:visited {
+    text-decoration: none;
+    color:red;
+}
+.subsection-footer  a:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+.footer-message:hover {
+   color:orange;
+}

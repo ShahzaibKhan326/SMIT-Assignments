@@ -1,0 +1,138 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container {
+    width:650px;
+    height: 700px;
+    position: relative;
+    margin: 20px auto;
+}
+.container-section1 {
+    width: 100%;
+    height:25% ;
+    background-color:purple;
+    text-align: center;
+    padding:25px;
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width:550px;
+    height:200px;
+    position: absolute;
+    top:20%;
+    left:50px;
+    right:0;
+    border: 2px solid white;
+}
+.subsection-image {
+    display: flex;
+    flex-flow:row;
+}
+.subsection-discover {
+    font-size:35px;
+    color:plum;
+    text-shadow:black 2px 2px 2px;
+
+}
+.subsection-karachi-city {
+    font-size:40px;
+    font-weight: bold;
+    color:white;
+    text-shadow:black 2px 2px 2px;
+}
+
+.container-section2 {
+    width: 100%;
+    height: 75%;   
+    background-color:antiquewhite;
+    padding-top:180px;
+    display: flex;
+    flex-flow:column;
+    justify-content:space-between;
+    /* gap:80px; */
+}
+
+.subsection-description-heading {
+
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    text-shadow: gray 2px 2px 2px;
+    font-size: 25px;
+}
+
+.subsection-description {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    font-size: 20px;
+    text-align: center;
+
+    height: 150px;
+    /* border: 1px solid red; */
+}
+.subsection-description > p
+{
+    padding: 10px 0px;
+}
+.subsection-description > p::first-letter {
+    font-size:24px;
+    color:purple
+}
+.footer-row
+{
+    display:flex;
+    flex-flow:row;
+    justify-content:space-evenly;
+}
+
+.subsection-footer  a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.subsection-footer  a:link {
+    text-decoration: none;
+    color:blue;
+}
+.subsection-footer  a:visited {
+    text-decoration: none;
+    color:red;
+}
+.subsection-footer  a:hover {
+    text-decoration: underline;
+    color:orange;
+}
+
+.footer-message:hover {
+   color:purple;
+}
+.subsection-button {
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:12%;
+    margin-top:80px;
+
+}
+.subsection-button button , .subsection-button a:link {
+    width: 70px;
+
+    background-color: plum;
+    border: none;
+    padding:10px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-decoration: none;
+}
+.subsection-button button:hover , .subsection-button a:hover{
+    background-color: rgb(75, 184, 75);
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color_Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+    <h2 class="center">WEB AND APP DEVELOPMENT</h2>
+ <div class="box bg_color_orange color_White box_border flex_box" id="flex_box">
+        <div class="section1">
+            <h3 class="center bg_color_green" id="flex_heading">HTML</h3>
+        <ul>
+            <li>HTML stands for Hyper Text Markup Language.</li>
+            <li>HTML is the standard markup language for creating Web pages.</li>
+            <li>HTML describes the structure of a Web page.</li>
+            <li>HTML consists of a series of elements.</li>
+            <li>HTML elements tell the browser how to display the content.</li>
+        </ul>
+        </div>
+        <div class="section2">
+           <h3>Custom Color Choice</h3> 
+           <div class="result_item">
+            <p id="result"></p>
+           </div>
+          <!-- Selection for font color-->
+
+           <div class="sub_section">
+             <div class="item">
+            <label for="font_color_input">Enter font color:</label>
+           </div>
+          <div class="sub_section_row">
+             <div class="item">
+            <input type="text" name="font_color" id="font_color_input" placeholder="Enter a color name">
+           </div>
+           <div class="item">
+             <button type="button" onclick="fontChange()">Change</button>
+           </div> 
+          </div> 
+           </div>
+
+
+        <!--Selection for background color-->
+            <div class="sub_section">
+             <div class="item">
+            <label for="bg_color_input">Enter background color:</label>
+           </div>
+           <div class="sub_section_row">
+            <div class="item">
+            <input type="text" name="bg_color" id="font_bg_color_input" placeholder="Enter a color name">
+           </div>
+           <div class="item">
+             <button type="button" onclick="fontBgColor()">Change</button>
+           </div>
+           </div>
+           </div>
+         <!--Selection for heading font color-->
+         <div class="sub_section">
+             <div class="item">
+            <label for="heading_font_color_input">Enter heading font color:</label>
+           </div>
+          <div class="sub_section_row">
+             <div class="item">
+            <input type="text" name="heading_font_color" id="heading_font_color_input" placeholder="Enter a color name">
+           </div>
+           <div class="item">
+             <button type="button" onclick="headingFontColor()">Change</button>
+           </div>
+          </div>
+           </div>
+
+         <!--Selection for heading color-->
+         <div class="sub_section">
+             <div class="item">
+            <label for="heading_bg_color_input">Enter  heading Background color:</label>
+           </div>
+          <div class="sub_section_row">
+             <div class="item">
+            <input type="text" name="font_color" id="heading_bg_color_input" placeholder="Enter a color name">
+           </div>
+           <div class="item">
+             <button type="button" onclick="headingBgColor()">Change</button>
+           </div>
+          </div>
+           </div>
+        </div>
+    </div>
+    <div class="box bg_color_blue color_White">
+        <h3 class="center bg_color_green">What is CSS</h3>
+<ul>
+        <li>CSS stands for Cascading Style Sheets.</li>
+        <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media.</li>
+        <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once.</li>
+        <li>External stylesheets are stored in CSS files.</li>
+
+</ul>
+    </div>
+    
+    <div class="box bg_color_yellow color_White">
+        <h3 class="bg_color_green center">What is JavaScript</h3>
+        <ul >
+           <li>JavaScript is the programming language of the web.</li>
+            <li>It can calculate, manipulate and validate data.</li>
+            <li>It can update and change both HTML and CSS.</li>
+        </ul>
+    </div>
+
+
+   </div>
+   <script src="scripts.js">
+   </script>
+</body>
+</html>
