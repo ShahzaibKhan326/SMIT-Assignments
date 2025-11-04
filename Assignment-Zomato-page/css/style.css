@@ -6,6 +6,10 @@
 body {
    font-family:Helvetica, Arial,sans-serif;
 }
+.center
+{
+    text-align: center;
+}
 .main-header {
     display: flex;
     padding:10px ;
@@ -80,19 +84,21 @@ body {
 .row {
     display: flex;
     flex-flow: row;
+    overflow-x: auto;
 }
 .column {
     display: flex;
     flex-flow:column;
 }
 .food-category {
+    position: relative;
     margin:20px 10px;
     border:1px solid blue;
-    overflow-x: scroll;
+    overflow:hidden;
     padding:20px 0px;
     background-color:#F8F8F8;
 }
-.food-category::-webkit-scrollbar
+.row::-webkit-scrollbar
 {
     display: none;
 }
@@ -104,6 +110,9 @@ body {
     flex-flow:column;
     width: 210px;
     height: 210px;
+    margin-top:30px;
+
+    flex: 0 0 auto;
 }
 .food-item-text {
     border:1px solid blue;
@@ -116,9 +125,27 @@ body {
    width:150px;
    height:150px; 
    border-radius: 50%;
+   box-shadow: 2px 2px 5px gray;
+
 } 
 .food-category-title {
+    position:sticky;
+    /* position:absolute; */
+    /* position: fixed; */
+    top:0px;
+    z-index: 10;
+
     padding-left: 30px;
     font-size: 30px;
     margin-bottom:15px;
+}
+
+/* Resturant logos */
+.resturant-logos {
+ border:1px solid purple;
+ margin-right: 10px;
+ padding:10px 20px;
+}
+.resturant-logo {
+margin-bottom:10px;
 }
