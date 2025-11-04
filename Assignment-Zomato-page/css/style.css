@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+body {
+   font-family:Helvetica, Arial,sans-serif;
+}
+.main-header {
+    background-image: url;
+    border:1px solid red;
+    display: flex;
+    padding:10px ;
+    gap:20px;
+
+}
+.header-item {
+    border:1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    width: 190px;
+    height: 70px;
+    font-family:  Helvetica, sans-serif;
+
+}
+.header-img-div {
+    background-color: red;
+    width:70px ;
+    height:60px;
+    margin-top:5px;
+    background-color:#F8F8F8;
+    border-radius: 60%;
+}
+.header-img-div:hover {
+    background-color:#7CCCCE;
+}
+
+.Background-size {
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dining-out-img {
+    background-image: url("../images/dinning-out.avif");
+}
+.dining-out-img:hover {
+  background-image: url("../images/dinning-out-hover.avif");
+}
+.delivery-img {
+    background-image: url("../images/delivery.webp");
+}
+.delivery-img:hover {
+  background-image: url("../images/delivery-hover.webp");
+}
+.night-life-img {
+    background-image: url("../images/nightlife.webp");
+}
+.night-life-img:hover {
+  background-image: url("../images/nightlife-hover.webp");
+}
+
+
+.main-header .text {
+ font-size: 20px;
+ padding:25px 3px;
+ margin-left: 5px;
+ color:black;
+}
+
+.text:hover {
+    color:#EF4F5F;
+}
