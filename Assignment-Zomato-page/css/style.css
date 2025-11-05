@@ -75,8 +75,7 @@ body {
  margin-left: 5px;
  color:black;
 }
-
-.text:hover {
+.hover-target:hover .text {
     color:#EF4F5F;
 }
 /* food-category */
@@ -90,27 +89,27 @@ body {
     display: flex;
     flex-flow:column;
 }
-.food-category {
+.food-category , .resturant-logos{
     position: relative;
     margin:20px 10px;
     border:1px solid blue;
     overflow:hidden;
-    padding:20px 0px;
+    padding:10px 20px;
     background-color:#F8F8F8;
 }
 .row::-webkit-scrollbar
 {
     display: none;
 }
-.food-item-box {
-    /* border:1px solid blue; */
-    background-color:transparent;
+.food-item-box , .resturant-logos-item{
+    border:1px solid blue;
     padding:10px;
     display: flex;
     flex-flow:column;
     width: 210px;
     height: 210px;
-    margin-top:30px;
+    /* margin-top:30px; */
+    overflow-y:hidden;
 
     flex: 0 0 auto;
 }
@@ -120,6 +119,7 @@ body {
     margin-top:10px;
     font-size: 20px;
     color:#363636;
+    /* font-weight: bold; */
 }
 .image-size {
    width:150px;
@@ -130,14 +130,9 @@ body {
 } 
 .food-category-title {
     position:sticky;
-    /* position:absolute; */
-    /* position: fixed; */
-    top:0px;
     z-index: 10;
-
-    padding-left: 30px;
     font-size: 30px;
-    margin-bottom:15px;
+    margin-bottom:20px;
 }
 
 /* Resturant logos */
@@ -148,4 +143,8 @@ body {
 }
 .resturant-logo {
 margin-bottom:10px;
+}
+.rerturant-logos-text {
+    font-size: 30px;
+    margin-bottom: 20px;
 }
