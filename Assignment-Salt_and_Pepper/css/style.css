@@ -182,7 +182,7 @@ text {
 .image-and-description 
 {
     padding:10px 15px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-between;
 }
 .address-section {
@@ -377,14 +377,14 @@ object-fit: cover;
 
 .coming-soon-block {
     width: 100%;
-    border: 1px solid yellowgreen;
+    /* border: 1px solid yellowgreen; */
     margin-top:50px;
     gap:20px;
      /*v-gap for box top*/
 }
 .all-row-container {
     width: 100%;
-    border:2px solid green;
+    /* border:2px solid green; */
     gap:20px ;  /*vertical gap for boxes*/
 
 }
@@ -393,7 +393,7 @@ object-fit: cover;
     /* padding:20px 20px; */
 }
 .box {
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 280px;
     height: 250px;
     background-color: white;
@@ -431,15 +431,91 @@ object-fit: cover;
 
 .end-section-01
 {
-    width: 25%;
-    border:1px solid yellowgreen
+    width: 35%;
+    /* border:1px solid yellowgreen; */
+    justify-content: flex-start;
+    
+}
+.end-section-01 .content{
+    /* border:1px solid red; */
+     justify-content: space-between;
+     text-align: justify;
+     height:70%;
 }
 .end-section-01 img {
     width: 200px;
-    height: 100px;
+    height: 80px;
 }
 /* section of end-footer*/
 .end-section-02 {
- width: 25%;
+    /* border:1px solid yellowgreen; */
+    width: 20%;
+    text-align:center;
+}
+.list-header {
+  margin-right:25px;
+  font-size: 20px;
+  /* border:1px solid red; */
+  color:white;
 }
 
+.end-section-02 ul {
+    list-style-type: none;
+    margin:10px;
+    /* border:1px solid red; */
+}
+.end-section-02 li 
+{
+    display: flex;
+    /* padding:5px; */
+    padding-left: 15px;
+    text-align: center;
+}
+.term-and-condition {
+    color:gray;
+}
+.end-footer a {
+    /* border:1px solid red; */
+    color:gray;
+    display: block;
+    width: 150px;
+}
+/* Contact Us*/
+.end-section-03 {
+    /* border:1px solid yellowgreen; */
+    width:25%;
+    text-align: justify;
+    gap:25px;
+}
+.number , .email , .head-address{
+    margin-top:15px;
+    color:gray;
+}
+/*Social */
+.end-section-04
+{
+    text-align: center;
+    /* border:1px solid yellowgreen; */
+    width: 25%;
+    gap:35px;
+}
+.social-logo
+ {
+    /* border:1px solid yellowgreen; */
+    padding:0px 20px;
+    width:200px;
+    margin:2px auto;
+    justify-content: space-between;
+
+ }
+.social-image {
+    width: 40px;
+}
+/*final footer*/
+
+.final-footer
+{
+    margin-top:40px;
+    justify-content: space-between;
+    font-size: 18px;
+}
