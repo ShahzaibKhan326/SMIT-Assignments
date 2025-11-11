@@ -118,6 +118,16 @@ justify-content: space-between;
     font-weight: bold;
     color:white;
 }
+/* .text-big::before {
+  content: "\f061"; 
+  font-family: "Font Awesome 6 Free";
+  color:red;
+  background:white;
+  padding:5px;
+  border-radius: 50%;
+  margin-right: 20px;
+} */
+
 text {
     text-align: center;
 }
