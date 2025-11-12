@@ -359,7 +359,7 @@ object-fit: cover;
     color:red;
 }
 .village-block-container {
-    border:1px solid red;
+    /* border:1px solid red; */
     padding:10px 2px;
     margin-top:50px;
     justify-content: space-between;
@@ -382,28 +382,6 @@ object-fit: cover;
     gap:10px;
     /* border:1px solid yellow; */
 }
-
-
-.village-block .rounded-link::after
- {
-
-     font-family: "FontAwesome";
-     content: "\f061";
-     color:red;
-     background-color: white;
-     border-radius: 50%;
-     margin-right:3px;
-     width: 18px;
-     height:18px ;
-     text-align: center;
-     font-size: 15px;  
-     /* transform: rotate(300deg); */
-     display: flex;
-     align-items: center;
-     justify-content: center;
-
-}
-
 
 /* Coming Soon Box*/
 
