@@ -99,6 +99,39 @@
     order:2;
 }
 
+.Row-Block-Address {
+    /* border:1px solid lime; */
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+.village-block 
+{
+    border:2px solid blue;
+}
+
+.village-block-image-and-description {
+    /* border:1px solid lime; */
+    flex-flow:column;
+    text-align: center;
+}
+.village-img-section
+{
+    width:100%;
+    border:1px solid gray;
+}
+.village-block-container {
+
+}
+
+.village-address {
+    height: 200px;
+    justify-content: center;
+    margin: 0px auto;
+    gap:0px;
+    border:1px solid yellow;
+}
 
 
 

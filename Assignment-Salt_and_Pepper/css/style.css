@@ -34,6 +34,27 @@ body {
     justify-content: center;
 }
 
+/*Round Links*/
+
+.rounded-link::after
+{
+     font-family: "FontAwesome";
+     content: "\f061";
+     color:red;
+     background-color: white;
+     border-radius: 50%;
+     margin-right:3px;
+     width: 18px;
+     height:18px ;
+     text-align: center;
+     font-size: 15px;  
+     /* transform: rotate(300deg); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
 .container {
     width:1000px;
     margin:0px auto;
@@ -126,10 +147,7 @@ display: none;
     justify-content: space-evenly;
     gap:10px;
 }
-.wellcome-section-cards
-{
-    /* border: 1px solid red; */
-}
+
 .wellcome-section
 {
     text-align: center;
@@ -162,6 +180,7 @@ text {
 .cards {
     gap:15px;
 }
+
 .card-image-div {
     /* border:1px solid red; */
     background-color: white;
@@ -188,19 +207,14 @@ text {
      background-image: url(../Images/Small_box_logos/SNP-Restaurant_Signature.webp);
 
 }
-
-
-.rounded-link
-{
+ .order-rounded-link {
     text-decoration: none;
-    text-align: center;
-    color:white;
-    background-color: black;
-    padding:12px 24px;
+    padding:10px 14px;
     border-radius: 25px;
     border: 1px solid white;
-    font-size: 20px;
-}
+    text-align: center;
+    color:white;
+ }
 .card-button {
     align-items: center;
 }
@@ -286,43 +300,13 @@ object-fit: cover;
     text-align: center;
     color:white;
     background-color: black;
-    padding:8px 10px;
+    /* padding:8px 10px; */
     padding-right:60px;
     border-radius: 25px;
     /* border: 1px solid white; */
     border:none;
     font-size: 20px;
-
 }
-/* Get Direction Button */
-.get-direction {
-    position:relative;
-    border:1px solid gray;
-    /* padding:5px ; */
-    margin-top:35px;
-    padding:3px ;
-    border-radius:25px;
-    cursor: pointer;
-}
-.arrow-background
-{
-     background-color: white;
-     width: 30px;
-     height: 30px;
-     border-radius: 50%;
-     justify-content: center;
-     align-items: center;
-     position:absolute;
-     transform: rotate(320deg);
-     right:20px;
-     top:18%; 
-}
-.arrow-b
-{
-   color:blue;
-   font-size: 23px;
-}
- 
 .Row-Block-Address
 {
     gap:10px
@@ -362,10 +346,9 @@ object-fit: cover;
     padding-right:20px;
 }
 .village-block-container {
-    /* border:1px solid red; */
+    border:1px solid red;
     padding:10px 2px;
     margin-top:50px;
-
     justify-content: space-between;
 }
 
@@ -385,31 +368,30 @@ object-fit: cover;
     margin: 10px auto;
     gap:10px;
     /* border:1px solid yellow; */
+}
+
+
+.village-block .rounded-link::after
+ {
+
+     font-family: "FontAwesome";
+     content: "\f061";
+     color:red;
+     background-color: white;
+     border-radius: 50%;
+     margin-right:3px;
+     width: 18px;
+     height:18px ;
+     text-align: center;
+     font-size: 15px;  
+     /* transform: rotate(300deg); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
 
 }
-.village-block .rounded-link {
-    padding-right:60px;
-    background-color: green;
-}
-.village-block .rounded-link:hover {
-    background-color:black;
-}
-.get-direction:hover .arrow-b  {
-    color:red;
-}
-.village-block .arrow-background {
-    right:35px;
-    top:22%;
-    transform: rotate(360deg);
-}
-.village-block .arrow-b 
-{
-    color:green;
-}
-.village-block-image-and-description {
-  /* border:1px solid yellowgreen; */
-  height:320px;
-} 
+
+
 /* Coming Soon Box*/
 
 .coming-soon-block {
