@@ -28,7 +28,7 @@
 .order-online {
      
     background-color: red;
-    padding:5px 3px;
+    padding:1px 3px;
     border-radius: 25px;
     border:1px solid white;
     font-size: 12px;
@@ -44,10 +44,10 @@
      background-color: white;
      border-radius: 50%;
      margin-right:3px;
-     width: 18px;
-     height:18px ;
+     width: 15px;
+     height:15px ;
      text-align: center;
-     font-size: 15px;  
+     font-size: 12px;  
      /* transform: rotate(300deg); */
      display: flex;
      align-items: center;
