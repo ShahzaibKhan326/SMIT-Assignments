@@ -158,6 +158,9 @@ display: none;
     justify-content: space-evenly;
     gap:10px;
 }
+.welcome-row::-webkit-scrollbar {
+    display: none;
+}
 
 .wellcome-section
 {
@@ -431,6 +434,9 @@ object-fit: cover;
 }
 .hidden {
     visibility: hidden;
+}
+.minus-icon {
+    display: none;
 }
 /* end footer section*/
 

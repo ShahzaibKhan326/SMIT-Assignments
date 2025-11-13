@@ -203,6 +203,7 @@ padding:10px;
 .minus-icon {
     display: none;
 }
+
 .site-plus-row {
     display: flex;
     flex-flow:row;
