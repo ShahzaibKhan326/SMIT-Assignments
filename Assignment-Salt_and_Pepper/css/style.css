@@ -85,6 +85,11 @@ justify-content: space-between;
 .side-menu  {
 display: none;
 }
+
+.menu-bar {
+    width:0px;
+}
+
 .nav-logo-img {
     width:180px;
     height: 80px;
@@ -113,7 +118,7 @@ display: none;
     background-color: red;
     padding:10px 16px;
     border-radius: 25px;
-    border:1px solid white;
+    /* border:1px solid white; */
 }
 
 .order-online::after {

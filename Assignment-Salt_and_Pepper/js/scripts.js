@@ -43,3 +43,14 @@ function hideContentlinks()
    link_plusSign.style.display="block";
    link_minusSign.style.display="none";
 }
+///-----
+function hideMenuBar() 
+{
+   let menu_bar_links = document.getElementById("menu-bar");
+   menu_bar_links.style.display="none";
+}
+function showMenuBar() 
+{
+   let menu_bar_links = document.getElementById("menu-bar");
+   menu_bar_links.style.display="block";
+}
