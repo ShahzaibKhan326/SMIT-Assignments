@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Complete Academy Notes</title>
+
+<style>
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f7fb;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.chapter {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.chapter h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+.sub {
+    margin-top: 20px;
+}
+
+.definition {
+    background: #eef5ff;
+    padding: 12px;
+    border-left: 5px solid #3498db;
+    margin-bottom: 10px;
+}
+
+.definition b {
+    color: #2c3e50;
+}
+
+.example {
+    background: #1e1e1e;
+    color: #00ff90;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: Consolas, monospace;
+    white-space: pre-wrap;
+}
+</style>
+</head>
+
+<body>
+
+<h1>📘 JavaScript Complete Academy Notes</h1>
+
+<!-- ================= CHAPTER 1 ================= -->
+<div class="chapter">
+<h2>Chapter 1: JavaScript Fundamentals</h2>
+
+<div class="sub">
+<div class="definition">
+<b>JavaScript:</b>  
+JavaScript is a high-level, interpreted programming language used to create dynamic and interactive web applications.
+</div>
+<div class="example">
+console.log("Welcome to JavaScript");
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Variables:</b>  
+Variables are used to store data values that can be reused and changed.
+</div>
+<div class="example">
+let name = "Ahmed";
+const age = 21;
+var city = "Karachi";
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Data Types:</b>  
+JavaScript data types define the kind of value stored in a variable.
+</div>
+<div class="example">
+let text = "Hello";      // String
+let num = 10;           // Number
+let active = true;      // Boolean
+let value = null;       // Null
+let x;                  // Undefined
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Operators:</b>  
+Operators perform operations on values.
+</div>
+<div class="example">
+let a = 10, b = 3;
+console.log(a + b);   // Arithmetic
+console.log(a > b);   // Comparison
+console.log(a && b);  // Logical
+</div>
+</div>
+</div>
+
+<!-- ================= CHAPTER 2 ================= -->
+<div class="chapter">
+<h2>Chapter 2: Control Flow</h2>
+
+<div class="sub">
+<div class="definition">
+<b>if / else:</b>  
+Used to execute code based on conditions.
+</div>
+<div class="example">
+let marks = 75;
+
+if(marks >= 50){
+  console.log("Pass");
+} else {
+  console.log("Fail");
+}
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Loops:</b>  
+Loops repeat code until a condition becomes false.
+</div>
+<div class="example">
+for(let i = 1; i <= 5; i++){
+  console.log(i);
+}
+</div>
+</div>
+</div>
+
+<!-- ================= CHAPTER 3 ================= -->
+<div class="chapter">
+<h2>Chapter 3: Functions</h2>
+
+<div class="sub">
+<div class="definition">
+<b>Function:</b>  
+A function is a reusable block of code that performs a specific task.
+</div>
+<div class="example">
+function greet(name){
+  return "Hello " + name;
+}
+console.log(greet("Ali"));
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Arrow Function:</b>  
+A modern and shorter syntax for writing functions.
+</div>
+<div class="example">
+const add = (a, b) => a + b;
+console.log(add(4, 6));
+</div>
+</div>
+</div>
+
+<!-- ================= CHAPTER 4 ================= -->
+<div class="chapter">
+<h2>Chapter 4: Arrays & Methods</h2>
+
+<div class="sub">
+<div class="definition">
+<b>Array:</b>  
+Arrays store multiple values in one variable.
+</div>
+<div class="example">
+let numbers = [1, 2, 3, 4];
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Array Methods:</b>  
+Used to manipulate arrays.
+</div>
+<div class="example">
+numbers.push(5);
+numbers.pop();
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>map() & filter():</b>  
+Used for transforming and selecting data.
+</div>
+<div class="example">
+let doubled = numbers.map(n => n * 2);
+let even = numbers.filter(n => n % 2 === 0);
+</div>
+</div>
+</div>
+
+<!-- ================= CHAPTER 5 ================= -->
+<div class="chapter">
+<h2>Chapter 5: Objects</h2>
+
+<div class="sub">
+<div class="definition">
+<b>Object:</b>  
+Objects store data in key-value pairs.
+</div>
+<div class="example">
+let student = {
+  name: "Sara",
+  age: 20,
+  isPass: true
+};
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>this keyword:</b>  
+Refers to the current object.
+</div>
+<div class="example">
+let user = {
+  name: "Ali",
+  greet(){
+    console.log(this.name);
+  }
+};
+user.greet();
+</div>
+</div>
+</div>
+
+<!-- ================= CHAPTER 6 ================= -->
+<div class="chapter">
+<h2>Chapter 6: DOM & Events</h2>
+
+<div class="sub">
+<div class="definition">
+<b>DOM:</b>  
+DOM allows JavaScript to interact with HTML elements.
+</div>
+<div class="example">
+document.querySelector("h1").style.color = "blue";
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>Events:</b>  
+Events respond to user actions.
+</div>
+<div class="example">
+document.querySelector("button")
+.addEventListener("click", () => {
+  alert("Clicked");
+});
+</div>
+</div>
+</div>
+
+<!-- ================= CHAPTER 7 ================= -->
+<div class="chapter">
+<h2>Chapter 7: Storage & Timing</h2>
+
+<div class="sub">
+<div class="definition">
+<b>localStorage:</b>  
+Stores data permanently in browser.
+</div>
+<div class="example">
+localStorage.setItem("name", "Ali");
+console.log(localStorage.getItem("name"));
+</div>
+</div>
+
+<div class="sub">
+<div class="definition">
+<b>setTimeout & setInterval:</b>  
+Used to execute code after time delay or repeatedly.
+</div>
+<div class="example">
+setTimeout(() => console.log("Hello"), 2000);
+</div>
+</div>
+</div>
+
+</body>
+</html>
